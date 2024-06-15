@@ -1,3 +1,6 @@
+
+def GetSrinidhiName():
+    return "Srinidhi S Nayaka"
 def GetAdityaName():
     return "Aditya N M"
 def GetZhenkar():
@@ -27,9 +30,13 @@ while True:
 
     elif Argument =="Surpabath":
         print(GetSuprabathName())
+        
+     elif Argument == "Srinidhi":
+        print(GetSrinidhiName())   
 
     elif Argument == "Vidhaan":
         print(GetVidhaanName())
+
     
     elif Argument == "Charan":
         print(GetCharanName()
