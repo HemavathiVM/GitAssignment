@@ -1,9 +1,9 @@
 def GetAdityaName():
     return "Aditya N M"
+def GetZhenkar():
+    return "Zhenkar Gowda K P"
 def GetSuprabathName():
     return "Surpabath reddy"
-
-
 def Abhishek_S():
     return "Abhishek_S"
 
@@ -14,23 +14,26 @@ def GetCharanName():
     return "Sri Charan"
 
 
+
 while True:
     Argument= input()
-    
 
-    if Argument == "Abhishek":
+    if Argument == "Zenkar":
+        print(GetZhenkar())
+    elif Argument == "Aditya":
         print(GetAdityaName())
+    elif Argument == "Abhiskek"
+        print(Abhishek_S())
 
     elif Argument =="Surpabath":
         print(GetSuprabathName())
 
-    if Argument == "Vidhaan":
+    elif Argument == "Vidhaan":
         print(GetVidhaanName())
     
-    if Argument == "Charan":
-        print(GetCharanName())
-
-    
+    elif Argument == "Charan":
+        print(GetCharanName()
+              
     elif Argument == "exit":
         break
     
