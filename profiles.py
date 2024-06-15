@@ -1,39 +1,20 @@
-def GetAdityaName():
-    return "Aditya N M"
-def GetZhenkar():
-    return "Zhenkar Gowda K P"
-def GetSuprabathName():
-    return "Surpabath reddy"
-def Abhishek_S():
-    return "Abhishek_S"
-
-def GetVidhaanName():
-    return "Vidhaan Viswas"
 
 def GetCharanName():
     return "Sri Charan"
 
-
+def GetPuneethName():
+    return "Puneeth M S"
 
 while True:
     Argument= input()
 
-    if Argument == "Zenkar":
-        print(GetZhenkar())
-    elif Argument == "Aditya":
-        print(GetAdityaName())
-    elif Argument == "Abhiskek"
-        print(Abhishek_S())
-
-    elif Argument =="Surpabath":
-        print(GetSuprabathName())
-
-    elif Argument == "Vidhaan":
-        print(GetVidhaanName())
     
-    elif Argument == "Charan":
-        print(GetCharanName()
-              
+    if Argument == "Charan":
+        print(GetCharanName())
+
+    if Argument == "Puneeth":
+        print(GetPuneethName())
+    
     elif Argument == "exit":
         break
     
