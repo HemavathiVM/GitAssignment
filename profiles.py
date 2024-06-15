@@ -1,3 +1,5 @@
+def GetSanketName():
+    return "Sanket Muttur"
 def GetAbhishekName():
     return "Abhishek yelmamdi"
 
@@ -23,9 +25,6 @@ def GetRohitName():
 
 def GetCharanName():
     return "Sri Charan"
-
-
-
 def GetOmkarName():
     return "Omkar M H"
 
@@ -38,7 +37,9 @@ def GetVigneshName():
 while True:
     Argument= input()
     
-    if Argument == "Abhishek":
+    if Argument == "Sanket":
+        print(GetSanketName())
+    elif Argument == "Abhishek":
         print(GetAbhishekName())
     elif Argument == "Aditya":
       print(GetAdityaName())
@@ -48,7 +49,6 @@ while True:
         print(GetZhenkar())
     elif Argument == "Aditya":
         print(GetAdityaName())
-
 
     elif Argument == "ABHIMANYU":
         print(GetAbhimanyuName())
@@ -71,13 +71,11 @@ while True:
     
     elif Argument == "Rohit":
         print(GetRohitName())
-    
 
     elif Argument == "Charan":
         print(GetCharanName()
               
     elif Argument == "exit":
         break
-              
     else:
         print("Invalid argument")
