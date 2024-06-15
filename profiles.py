@@ -1,3 +1,8 @@
+def GetAdityaName():
+    return "Aditya N M"
+def GetSuprabathName():
+    return "Surpabath reddy"
+
 
 def Abhishek_S():
     return "Abhishek_S"
@@ -15,6 +20,9 @@ while True:
 
     if Argument == "Abhishek":
         print(GetAdityaName())
+
+    elif Argument =="Surpabath":
+        print(GetSuprabathName())
 
     if Argument == "Vidhaan":
         print(GetVidhaanName())
