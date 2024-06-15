@@ -1,4 +1,7 @@
 
+def GetmyName():
+    return "chetan donawadi"
+
 def GetSrinidhiName():
     return "Srinidhi S Nayaka"
 def GetAdityaName():
@@ -25,10 +28,12 @@ while True:
     Argument= input()
 
     
-   
+    if Argument == "chetan":
+        print(GetmyName())
+ 
 
 
-    if Argument == "Zenkar":
+    elif Argument == "Zenkar":
         print(GetZhenkar())
     elif Argument == "Aditya":
         print(GetAdityaName())
@@ -51,6 +56,7 @@ while True:
     elif Argument == "Charan":
         print(GetCharanName()
               
+
     elif Argument == "exit":
         break
     
