@@ -18,8 +18,15 @@ def GetCharanName():
 
 
 
+def GetOmkarName():
+    return "Omkar M H"
+
 while True:
     Argument= input()
+
+    
+   
+
 
     if Argument == "Zenkar":
         print(GetZhenkar())
@@ -30,12 +37,15 @@ while True:
 
     elif Argument =="Surpabath":
         print(GetSuprabathName())
+    elif Argument == "Omkar":
+        print(GetOmkarName())
         
      elif Argument == "Srinidhi":
         print(GetSrinidhiName())   
 
     elif Argument == "Vidhaan":
         print(GetVidhaanName())
+
 
     
     elif Argument == "Charan":
