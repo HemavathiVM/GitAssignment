@@ -27,13 +27,16 @@ def GetOmkarName():
 def GetAbhimanyuName():
     return "ABHIMANYU SINGH"
 
+def GetVigneshName():
+    return "Vignesh"
+
 while True:
     Argument= input()
-
     
-    if Argument == "chetan":
+    if Argument == "Aditya":
+    elif Argument == "chetan":
         print(GetmyName())
- 
+    elif 
 
 
     elif Argument == "Zenkar":
@@ -42,7 +45,7 @@ while True:
         print(GetAdityaName())
 
 
-    if Argument == "ABHIMANYU":
+    elif Argument == "ABHIMANYU":
         print(GetAbhimanyuName())
 
     elif Argument == "Abhiskek"
@@ -58,17 +61,19 @@ while True:
 
     elif Argument == "Vidhaan":
         print(GetVidhaanName())
-
-
-
+    elif Argument == "Vignesh":
+        print(GetVigneshName())
     
+    elif Argument == "exit":
+        break
+    
+    else:
+        print("Invalid argument")
+
     elif Argument == "Charan":
         print(GetCharanName()
               
-
     elif Argument == "exit":
         break
-
-    
     else:
         print("Invalid argument")
