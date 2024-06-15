@@ -1,11 +1,14 @@
 def GetAdityaName():
     return "Aditya N M"
 
+def GetOmkarName():
+    return "Omkar M H"
+
 while True:
     Argument= input()
     
-    if Argument == "Aditya":
-        print(GetAdityaName())
+    if Argument == "Omkar":
+        print(GetOmkarName())
     
     elif Argument == "exit":
         break
