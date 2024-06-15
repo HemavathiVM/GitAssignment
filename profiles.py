@@ -1,17 +1,11 @@
-def GetVidhaanName():
-    return "Vidhaan Viswas"
-
-def GetCharanName():
-    return "Sri Charan"
+def GetmyName():
+    return "chetan donawadi"
 
 while True:
     Argument= input()
     
-    if Argument == "Vidhaan":
-        print(GetVidhaanName())
-    
-    if Argument == "Charan":
-        print(GetCharanName())
+    if Argument == "chetan":
+        print(GetmyName())
     
     elif Argument == "exit":
         break
