@@ -1,11 +1,11 @@
-def GetAdityaName():
-    return "Aditya N M"
+def GetAbhishekName():
+    return "Abhishek yelmamdi"
 
 while True:
     Argument= input()
     
-    if Argument == "Aditya":
-        print(GetAdityaName())
+    if Argument == "Abhishek":
+        print(GetAbhishekName())
     
     elif Argument == "exit":
         break
