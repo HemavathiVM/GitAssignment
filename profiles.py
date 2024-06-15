@@ -1,11 +1,11 @@
-def GetAdityaName():
+def GetSrinidhiName():
     return "Srinidhi S Nayaka"
 
 while True:
     Argument= input()
     
     if Argument == "Srinidhi":
-        print(GetAdityaName())
+        print(GetSrinidhiName())
     
     elif Argument == "exit":
         break
