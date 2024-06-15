@@ -16,6 +16,9 @@ def Abhishek_S():
 def GetVidhaanName():
     return "Vidhaan Viswas"
 
+def GetRohitName():
+    return "Rohit y" 
+
 def GetCharanName():
     return "Sri Charan"
 
@@ -64,6 +67,9 @@ while True:
     elif Argument == "Vignesh":
         print(GetVigneshName())
     
+    elif Argument == "Rohit":
+        print(GetRohitName())
+
     elif Argument == "exit":
         break
     
