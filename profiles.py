@@ -1,10 +1,10 @@
-def GetAdityaName():
-    return "Aditya N M"
+def Abhishek_S():
+    return "Abhishek_S"
 
 while True:
     Argument= input()
     
-    if Argument == "Aditya":
+    if Argument == "Abhishek":
         print(GetAdityaName())
     
     elif Argument == "exit":
