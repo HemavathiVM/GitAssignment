@@ -1,5 +1,5 @@
-def GetAdityaName():
-    return "Aditya N M"
+def GetVidhaanName():
+    return "Vidhaan Viswas"
 
 def GetCharanName():
     return "Sri Charan"
@@ -7,8 +7,8 @@ def GetCharanName():
 while True:
     Argument= input()
     
-    if Argument == "Aditya":
-        print(GetAdityaName())
+    if Argument == "Vidhaan":
+        print(GetVidhaanName())
     
     if Argument == "Charan":
         print(GetCharanName())
