@@ -32,6 +32,8 @@ def GetAbhimanyuName():
     return "ABHIMANYU SINGH"
 def GetVigneshName():
     return "Vignesh"
+def GetAbhishek_S():
+    return "Abhishek_S"
 
 while True:
     Argument= input()
@@ -50,6 +52,8 @@ while True:
         print(GetZhenkar())
     elif Argument == "Aditya":
         print(GetAdityaName())
+    elif Argument == "AbhishekS":
+        print(GetAbhishek_S())
     elif Argument == "Bhoomika":
         print(GetBhoomiName())
     elif Argument == "Hemavathi":
